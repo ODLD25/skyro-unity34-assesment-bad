@@ -64,7 +64,6 @@ public class GameManager : MonoBehaviour
 
             GameObject spawnedEnemy = Instantiate(enemyPrefab, pos, Quaternion.identity);
             difficulty += .01f;
-            Debug.Log(spawnCooldown.Evaluate(difficulty));
             yield return new WaitForSeconds(spawnCooldown.Evaluate(difficulty));
 
             yield return null;

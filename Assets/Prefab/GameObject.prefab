@@ -172,9 +172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::eNemy
   speed: 2.4
   maxHealth: 5
-  curHealth: 0
-  attackDst: 3
-  attackCooldown: 1
-  dmg: 2
   scoreToAdd: 1
+  curHealth: 0
+  attackDst: 2
+  dmg: 2
+  attackCooldown: 1
   hitParticle: {fileID: 7616865376984506763, guid: 6d5c228485194c846b06a93b42d4d6c4, type: 3}
