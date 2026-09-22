@@ -1,0 +1,46 @@
+OVDF v1.1
+GameManager, Assembly-CSharp
+MetaGuid:b2469cb9b11084cd396ca062c6571caa
+
+# $DfiDqLRkaM6BpZh4u86Ci6
+Position: $root:0
++ [Sirenix.OdinInspector.TitleGroupAttribute]
+	GroupName = "Enemy/Wave Management"
+	Indent = False
+	BoldTitle = True
+	HorizontalLine = True
+
+# $5uodQuh5bH7sLQdFzvMdxi
+Position: $root:3
++ [Sirenix.OdinInspector.TitleGroupAttribute]
+	GroupName = "Stats"
+
+# $LiW9SbneyWuEJXox1r3649
+Position: $root:11
++ [Sirenix.OdinInspector.TitleGroupAttribute]
+	GroupName = "References"
+
+# enemyPrefab
+Position: $DfiDqLRkaM6BpZh4u86Ci6:0
+- [UnityEngine.HeaderAttribute]
+
+# spawnCooldown
+Position: $DfiDqLRkaM6BpZh4u86Ci6:1
+- [UnityEngine.HeaderAttribute]
+
+# wave
+Position: $DfiDqLRkaM6BpZh4u86Ci6:2
+
+# score
+Position: $5uodQuh5bH7sLQdFzvMdxi:0
+- [UnityEngine.HeaderAttribute]
+
+# player
+Position: $LiW9SbneyWuEJXox1r3649:1
+- [UnityEngine.HeaderAttribute]
+
+# hud
+Position: $LiW9SbneyWuEJXox1r3649:2
+
+# pauseCanvas
+Position: $LiW9SbneyWuEJXox1r3649:0

@@ -1,0 +1,14 @@
+OVDF v1.1
+HudStuff, Assembly-CSharp
+MetaGuid:61fc0aa7bf3324578bfad2f731183b8c
+
+# $MAfV39NHArv1Yf29GHVKzB
+Position: $root:2
++ [Sirenix.OdinInspector.TitleGroupAttribute]
+	GroupName = "References"
+
+# scoreTxtObject
+Position: $MAfV39NHArv1Yf29GHVKzB:0
+
+# healthTxtObject
+Position: $MAfV39NHArv1Yf29GHVKzB:1

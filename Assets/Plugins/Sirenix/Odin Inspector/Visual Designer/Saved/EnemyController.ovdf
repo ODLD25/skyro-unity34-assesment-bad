@@ -1,0 +1,47 @@
+OVDF v1.1
+EnemyController, Assembly-CSharp
+MetaGuid:be72e30c2c0014e90855736585b3f015
+
+# $2H5XNjMCzv84Xed6W6D4jL
+Position: $root:10
++ [Sirenix.OdinInspector.TitleGroupAttribute]
+	GroupName = "Stats"
+
+# $SPz3BXTpWFG8MR8pdFmmu7
+Position: $root:9
++ [Sirenix.OdinInspector.TitleGroupAttribute]
+	GroupName = "Settings"
+
+# $76Vv46Nmo8i3qy1rtFcTVB
+Position: $root:11
++ [Sirenix.OdinInspector.TitleGroupAttribute]
+	GroupName = "Attack"
+
+# $AAPPqHdD34LrLV5JJ7BnLP
+Position: $root:12
++ [Sirenix.OdinInspector.TitleGroupAttribute]
+	GroupName = "References"
+
+# speed
+Position: $SPz3BXTpWFG8MR8pdFmmu7:0
+
+# maxHealth
+Position: $SPz3BXTpWFG8MR8pdFmmu7:1
+
+# curHealth
+Position: $2H5XNjMCzv84Xed6W6D4jL:0
+
+# scoreToAdd
+Position: $SPz3BXTpWFG8MR8pdFmmu7:2
+
+# attackCooldown
+Position: $76Vv46Nmo8i3qy1rtFcTVB:2
+
+# attackDst
+Position: $76Vv46Nmo8i3qy1rtFcTVB:0
+
+# dmg
+Position: $76Vv46Nmo8i3qy1rtFcTVB:1
+
+# hitParticle
+Position: $AAPPqHdD34LrLV5JJ7BnLP:0

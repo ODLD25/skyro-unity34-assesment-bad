@@ -1,0 +1,75 @@
+OVDF v1.1
+PlayerController, Assembly-CSharp
+MetaGuid:b88034748bf464c06a0279995ea88f10
+
+# $Wb5FQgw2fGZYxDFHhqUQhS
+Position: $root:0
++ [Sirenix.OdinInspector.TitleGroupAttribute]
+	GroupName = "Settings"
+
+# $DGmJhSqWXuASzA4EuDfBQ3
+Position: $root:13
++ [Sirenix.OdinInspector.TitleGroupAttribute]
+	GroupName = "Shooting"
+
+# $GTaARc3pKh6F391fGE5GnZ
+Position: $root:14
++ [Sirenix.OdinInspector.TitleGroupAttribute]
+	GroupName = "References"
+
+# $S9JTHKZmntSC2ZD2JUAdMF
+Position: $root:12
++ [Sirenix.OdinInspector.TitleGroupAttribute]
+	GroupName = "Stats"
+
+# $DnncFhLnUNAHKMqWxEwvCw
+Position: $DGmJhSqWXuASzA4EuDfBQ3:0
++ [Sirenix.OdinInspector.ColumnGroupAttribute]
+
+# $38zHA6toxwy62otGohHeAX
+Position: $DnncFhLnUNAHKMqWxEwvCw:0
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+	Size = 95 px
+
+# $5yLVEUcD1o8HcNd8oC8xPg
+Position: $DnncFhLnUNAHKMqWxEwvCw:1
++ [Sirenix.OdinInspector.ColumnGroupAttribute+ColumnSubGroupAttribute]
+
+# speed
+Position: $Wb5FQgw2fGZYxDFHhqUQhS:0
+
+# maxHealth
+Position: $Wb5FQgw2fGZYxDFHhqUQhS:1
+
+# shootPoint
+Position: $DGmJhSqWXuASzA4EuDfBQ3:1
++ [Sirenix.OdinInspector.LabelWidthAttribute]
+	Width = 95
+
+# shootForce
+Position: $5yLVEUcD1o8HcNd8oC8xPg:1
++ [Sirenix.OdinInspector.LabelWidthAttribute]
+	Width = 100
+
+# shootCooldown
+Position: $5yLVEUcD1o8HcNd8oC8xPg:0
++ [Sirenix.OdinInspector.LabelWidthAttribute]
+	Width = 100
+
+# ammoPrefab
+Position: $38zHA6toxwy62otGohHeAX:0
++ [Sirenix.OdinInspector.PreviewFieldAttribute]
+	Height = 50
++ [Sirenix.OdinInspector.HideLabelAttribute]
++ [Sirenix.OdinInspector.LabelTextAttribute]
+	Text = "Ammo"
+	NicifyText = False
+
+# curHealth
+Position: $S9JTHKZmntSC2ZD2JUAdMF:0
+
+# rb
+Position: $GTaARc3pKh6F391fGE5GnZ:1
+
+# hud
+Position: $GTaARc3pKh6F391fGE5GnZ:0
